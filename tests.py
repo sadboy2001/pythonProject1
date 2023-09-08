@@ -20,6 +20,7 @@ def test_sum2():
 def test_one(a, b, result):
     assert a + b == result
 
+#check
 
 @pytest.mark.parametrize('c, d, result_m',
                          [
